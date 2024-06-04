@@ -5,5 +5,8 @@ body{
 
 h1{
 	color: #FDFDFB;
-	font-size: 128;
+	height: inherit;
+	font-size: 15vh;
+	font-style: italic;
+	font-weight: lighter;
 }
