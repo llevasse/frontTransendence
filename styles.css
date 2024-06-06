@@ -21,6 +21,11 @@ h1{
 	margin-right:auto;
 }
 
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
 .options:hover{
 	color: #FFDBDE;
 }
