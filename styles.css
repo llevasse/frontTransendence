@@ -21,11 +21,19 @@ h1{
 	margin-right:auto;
 }
 
+.options:hover{
+	color: #FFDBDE;
+}
+
+input{
+	width: 16vw;
+	border: 0.2px solid #FFDBDE;
+	color: #FFDBDE;
+	background-color: #3A3053;
+	border-radius: 25px;
+}
+
 a {
 	color: inherit;
 	text-decoration: inherit;
-}
-
-.options:hover{
-	color: #FFDBDE;
 }
