@@ -17,4 +17,10 @@ h1{
 	font-style:italic;
 	font-weight:thin;	
 	padding-top:2vh;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.options:hover{
+	color: #FFDBDE;
 }
