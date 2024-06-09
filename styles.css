@@ -1,4 +1,11 @@
+@font-face{
+	font-family: 'pong';
+/*	src: url('PRNumber3.ttf'); */
+	src: url('PrintChar21.ttf');
+}
+
 body{
+	font-family:'pong';
 	background-color: #110026;
 	height: 100%;
 }
@@ -26,11 +33,28 @@ h1{
 }
 
 input{
-	width: 16vw;
+	font-family:'pong';
+	width: 14vw;
 	border: 0.2px solid #FFDBDE;
 	color: #FFDBDE;
 	background-color: #3A3053;
 	border-radius: 25px;
+	font-size: 2vh;
+	padding:2vh;
+}
+
+input:focus{
+	outline: none;
+}
+
+.forms {
+	text-align: center;
+	color: #FDFDFB;
+	font-style:italic;
+	font-weight:thin;	
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 5vh;
 }
 
 a {
