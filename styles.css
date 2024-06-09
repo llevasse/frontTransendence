@@ -34,13 +34,16 @@ h1{
 
 input{
 	font-family:'pong';
-	width: 14vw;
 	border: 0.2px solid #FFDBDE;
 	color: #FFDBDE;
 	background-color: #3A3053;
 	border-radius: 25px;
 	font-size: 2vh;
-	padding:2vh;
+	padding-top:2vh;
+	padding-left: 1vw;
+	padding-bottom: 2vh;
+	padding-right: 1vw;
+	width: 18vw;
 }
 
 input:focus{
@@ -55,6 +58,7 @@ input:focus{
 	margin-left:auto;
 	margin-right:auto;
 	padding-top: 5vh;
+	width:20vw;
 }
 
 a {
