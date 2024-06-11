@@ -5,20 +5,26 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div style="height:fit-content; text-align: center;">
-		<h1>PONG</h1>
-	</div>
-	<div style="height:fit-content; text-align: center;">
-		<!-- href to remove -->
-		<div class="options">
-		<a>Play</a>
-		</div><div class="options">
-			<a href="login.html">Login</a>
-		</div><div class="options">
-		<a>Register</a>
-		</div><div class="options">
-		<a>Settings</a>
+	<div id="container">
+		<div style="height:fit-content; text-align: center;">
+			<h1>PONG</h1>
+		</div>
+		<div style="height:fit-content; text-align: center;">
+			<!-- href to remove -->
+			<div class="options">
+				<a>Play</a>
+			</div>
+			<div class="options" onclick="changeToLogin()">
+				<a >Login</a>
+			</div>
+			<div class="options">
+				<a>Register</a>
+			</div>
+			<div class="options">
+				<a>Settings</a>
+			</div>
 		</div>
 	</div>
+	<script src="app.js"></script>
 </body>
 </html> 
