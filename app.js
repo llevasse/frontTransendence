@@ -14,7 +14,7 @@ async function changeToHome(){
 	contain.innerHTML=txt;
 }
 
-async function changeToWhiteMode(){
+async function changeToLightMode(){
 	const style = document.getElementById("style");
-	style.setAttribute('href', "whiteMode.css");
+	style.setAttribute('href', "lightMode.css");
 }
