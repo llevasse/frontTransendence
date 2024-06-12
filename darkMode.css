@@ -1,0 +1,69 @@
+@font-face{
+	font-family: 'pong';
+/*	src: url('fonts/PRNumber3.ttf'); */
+	src: url('fonts/PrintChar21.ttf');
+}
+
+body{
+	font-family:'pong';
+	background-color: #110026;
+	height: 100%;
+}
+
+h1{
+	color: #FDFDFB;
+	height: inherit;
+	font-size: 10vh;
+	font-style: italic;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+.options {
+	text-align: center;
+	color: #FDFDFB;
+	font-size: 7vh;
+	font-style:italic;
+	font-weight:thin;	
+	padding-top:2vh;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.options:hover{
+	color: #FFDBDE;
+}
+
+input{
+	font-family:'pong';
+	border: 0.2px solid #FFDBDE;
+	color: #FFDBDE;
+	background-color: #3A3053;
+	border-radius: 25px;
+	font-size: 2vh;
+	padding-top:2vh;
+	padding-left: 1vw;
+	padding-bottom: 2vh;
+	padding-right: 1vw;
+	width: 18vw;
+}
+
+input:focus{
+	outline: none;
+}
+
+.forms {
+	text-align: center;
+	color: #FDFDFB;
+	font-style:italic;
+	font-weight:thin;	
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 5vh;
+	width:20vw;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
