@@ -8,6 +8,14 @@ async function changeToLogin(){
 	contain.innerHTML=txt;
 }
 
+async function changeToRegister(){
+	const contain = document.getElementById("container");
+	const response = await fetch("bodyLess/register.html");
+	const txt = await response.text();
+	
+	contain.innerHTML=txt;
+}
+
 async function changeToHome(){
 	const contain = document.getElementById("container");
 	const response = await fetch("bodyLess/home.html");
