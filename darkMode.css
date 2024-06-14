@@ -69,7 +69,15 @@ a {
 	text-decoration: inherit;
 }
 
-#arrow {
-	color:"#fdfdfb";
-	fill:"#fdfdfb";
+#goHomeButton{
+	mask-image:url("svg/left_arrow.svg");
+	background:#fdfdfb;
+	height:10vh;
+	width:5vw;
+	position:absolute;
+	top:5vh;
+	left:5vw;
+	mask-size:contain;
+	mask-position:center;
+	mask-repeat:no-repeat;
 }
