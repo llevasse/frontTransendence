@@ -1,3 +1,5 @@
+changeToHome();
+
 async function changeToLogin(){
 	const contain = document.getElementById("container");
 	const response = await fetch("bodyLess/login.html");
