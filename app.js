@@ -16,6 +16,14 @@ async function changeToRegister(){
 	contain.innerHTML=txt;
 }
 
+async function changeToSettings(){
+	const contain = document.getElementById("container");
+	const response = await fetch("bodyLess/settings.html");
+	const txt = await response.text();
+	
+	contain.innerHTML=txt;
+}
+
 async function changeToHome(){
 	const contain = document.getElementById("container");
 	const response = await fetch("bodyLess/home.html");

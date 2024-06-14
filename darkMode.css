@@ -41,10 +41,10 @@ input{
 	color: #FFDBDE;
 	background-color: #3A3053;
 	border-radius: 25px;
-	font-size: 2vh;
-	padding-top:2vh;
+	font-size: 1vh;
+	padding-top:1.5vh;
 	padding-left: 1vw;
-	padding-bottom: 2vh;
+	padding-bottom: 1.5vh;
 	padding-right: 1vw;
 	width: 18vw;
 }
