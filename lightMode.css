@@ -81,3 +81,16 @@ a {
 	mask-position:center;
 	mask-repeat:no-repeat;
 }
+
+#themeButton{
+	mask-image:url("svg/button-light-mode.svg");
+	background:#110026;
+	height:10vh;
+	width:5vw;
+	position:absolute;
+	top:5vh;
+	right:5vw;
+	mask-size:contain;
+	mask-position:center;
+	mask-repeat:no-repeat;
+}

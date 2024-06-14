@@ -14,12 +14,11 @@ async function changeToHome(){
 	contain.innerHTML=txt;
 }
 
-async function changeToLightMode(){
+async function changeTheme(){
 	const style = document.getElementById("style");
-	style.setAttribute('href', "lightMode.css");
-}
-
-async function changeToDarkMode(){
-	const style = document.getElementById("style");
-	style.setAttribute('href', "darkMode.css");
+	const href = style.getAttribute('href');
+	if (href == "lightMode.css")
+		style.setAttribute('href', "darkMode.css");
+	else
+		style.setAttribute('href', "lightMode.css");
 }
