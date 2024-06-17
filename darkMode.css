@@ -99,37 +99,50 @@ a {
 	text-align: center;
 	background-color: #3a3053;
 	color: #FDFDFB;
-	font-style:italic;
-	font-weight:thin;	
-	margin-left:auto;
-	margin-right:auto;
-	padding-top: 5vh;
-	width:20vw;
+	font-style: italic;
+	font-weight: thin;	
+	font-family: "pong";
+	font-size: 4vh;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1vh 0;
+	width: 20vw;
+	border: 0;
 }
 
 .dropDown{
 	position: relative;
 	display: inline-block;
+	border: 0.2vh solid;
+	border-color: #FFDBDE;
 }
 
 .dropDown:hover .dropDownContent{
-	display:block;
+	display: block;
+	border: 0.2vh solid;
+	border-color: #FFDBDE;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .dropDownContent{
-	display:none;
-	position:absolute;
+	display: none;
+	position: absolute;
 	background-color: #3a3053;
-	width:20vw;
+	width: 20vw;
 }
 
 
 .dropDownContent a{
 	color: inherit;
 	text-decoration: inherit;
-	margin-left:auto;
-	margin-right:auto;
-	padding-top: 5vh;
-	width:20vw;
+	font-size: 4vh;
+	padding: 1vh 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20vw;
 	display: block;
+}
+.dropDownContent a:hover{
+	color: #fdfdfb;
 }
