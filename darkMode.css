@@ -96,15 +96,13 @@ a {
 }
 
 .dropDownBtn {
-	text-align: center;
+	text-align: left;
 	background-color: #3a3053;
 	color: #FDFDFB;
 	font-style: italic;
 	font-weight: thin;	
 	font-family: "pong";
 	font-size: 4vh;
-	margin-left: auto;
-	margin-right: auto;
 	padding: 1vh 0;
 	width: 20vw;
 	border: 0;
@@ -115,12 +113,23 @@ a {
 	display: inline-block;
 	border: 0.2vh solid;
 	border-color: #FFDBDE;
+	background-color: #3A3053;
+	margin: 2vh 0 0 30vw;
+	padding-right: 0.1vw;
+}
+
+.dropDown:hover .dropDownBtn{
+	width: 40vw;
 }
 
 .dropDown:hover .dropDownContent{
+	border: 0.2vh solid #FFDBDE;
+	border-block-start: #3A3053;
+	width:20vw;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	position: absolute;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .dropDownContent{
