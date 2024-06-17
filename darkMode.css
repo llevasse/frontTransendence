@@ -119,8 +119,6 @@ a {
 
 .dropDown:hover .dropDownContent{
 	display: block;
-	border: 0.2vh solid;
-	border-color: #FFDBDE;
 	margin-left: auto;
 	margin-right: auto;
 }
