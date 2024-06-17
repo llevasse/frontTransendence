@@ -127,7 +127,6 @@ a {
 
 .dropDownContent{
 	display: none;
-	position: absolute;
 	background-color: #3a3053;
 	width: 20vw;
 }
