@@ -94,3 +94,63 @@ a {
 	mask-position:center;
 	mask-repeat:no-repeat;
 }
+
+.dropDownBtn {
+	text-align: left;
+	background-color: #FFDBDE;
+	color: #110026;
+	font-style: italic;
+	font-weight: thin;	
+	font-family: "pong";
+	font-size: 4vh;
+	padding: 1vh 0;
+	width: 20vw;
+	border: 0;
+}
+
+.dropDown{
+	position: relative;
+	display: inline-block;
+	border: 0.2vh solid;
+	border-color: #110026;
+	background-color: #FFDBDE;
+	margin: 2vh 0 0 30vw;
+	padding-right: 0.1vw;
+}
+
+.dropDown:hover .dropDownBtn{
+	width: 40vw;
+}
+
+.dropDown:hover .dropDownContent{
+	border: 0.2vh solid #110026;
+	border-block-start: #FFDBDE;
+	width:20vw;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	position: absolute;
+	display: block;
+	z-index: 1;
+}
+
+.dropDownContent{
+	display: none;
+	background-color: #FFDBDE;
+	width: 20vw;
+}
+
+
+.dropDownContent a{
+	text-align: center;
+	color: inherit;
+	text-decoration: inherit;
+	font-size: 4vh;
+	padding: 1vh 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20vw;
+	display: block;
+}
+.dropDownContent a:hover{
+	color: #fdfdfb;
+}
