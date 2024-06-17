@@ -41,3 +41,13 @@ async function changeTheme(){
 	else
 		style.setAttribute('href', "lightMode.css");
 }
+
+async function changeToDarkMode(){
+	const style = document.getElementById("style");
+	style.setAttribute('href', "darkMode.css");
+}
+
+async function changeToLightMode(){
+	const style = document.getElementById("style");
+	style.setAttribute('href', "lightMode.css");
+}

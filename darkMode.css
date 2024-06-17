@@ -130,6 +130,7 @@ a {
 	margin-right: 20vw;
 	position: absolute;
 	display: block;
+	z-index: 1;
 }
 
 .dropDownContent{
@@ -140,6 +141,7 @@ a {
 
 
 .dropDownContent a{
+	text-align: center;
 	color: inherit;
 	text-decoration: inherit;
 	font-size: 4vh;
