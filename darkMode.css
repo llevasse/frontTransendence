@@ -114,19 +114,39 @@ a {
 	border: 0.2vh solid;
 	border-color: #FFDBDE;
 	background-color: #3A3053;
-	margin: 2vh 0 0 30vw;
+	margin: 2vh 0 0 25vw;
 	padding-right: 0.1vw;
+	width: fit-content;
+}
+
+.dropDownArrow{
+	mask-image:url("svg/right_arrow.svg");
+	background:#fdfdfb;
+	height:5vh;
+	width:5vw;
+	position:absolute;
+	top:0.5vh;
+	right:0vw;
+	mask-size:contain;
+	mask-position:center;
+	mask-repeat:no-repeat;
+}
+
+.dropDown:hover .dropDownArrow{
+	transform: rotate(90deg);	
+	right: 12.5vw;
 }
 
 .dropDown:hover .dropDownBtn{
-	width: 40vw;
+	display: inline-block;
+	width: 50vw;
 }
 
 .dropDown:hover .dropDownContent{
 	border: 0.2vh solid #FFDBDE;
 	border-block-start: #3A3053;
-	width:20vw;
-	margin-left: 20vw;
+	width:29vw;
+	margin-left: 21vw;
 	margin-right: 20vw;
 	position: absolute;
 	display: block;
