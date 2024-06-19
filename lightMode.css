@@ -41,10 +41,10 @@ input{
 	color: #110026;
 	background-color: #FFDBDE;
 	border-radius: 25px;
-	font-size: 2vh;
-	padding-top:2vh;
+	font-size: 1vh;
+	padding-top:1.5vh;
 	padding-left: 1vw;
-	padding-bottom: 2vh;
+	padding-bottom: 1.5vh;
 	padding-right: 1vw;
 	width: 18vw;
 }
@@ -62,6 +62,15 @@ input:focus{
 	margin-right:auto;
 	padding-top: 5vh;
 	width:20vw;
+}
+
+#forgotPassword{
+	width:18vw;
+   	text-align: left; 
+	padding-top:0; 
+	color:#FFDBDE; 
+	font-size:1vh; 
+	padding-top:1vh;
 }
 
 a {
@@ -116,7 +125,7 @@ a {
 	background-color: #FFDBDE;
 	margin: 2vh 0 0 25vw;
 	padding-right: 0.1vw;
-	width:fit-content;
+	width: fit-content;
 }
 
 .dropDownArrow{
@@ -138,6 +147,7 @@ a {
 }
 
 .dropDown:hover .dropDownBtn{
+	display: inline-block;
 	width: 50vw;
 }
 

@@ -1,5 +1,4 @@
-//changeToHome();
-changeToSettings();
+changeToLogin();
 
 async function changeToLogin(){
 	const contain = document.getElementById("container");

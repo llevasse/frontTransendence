@@ -64,6 +64,15 @@ input:focus{
 	width:20vw;
 }
 
+#forgotPassword{
+	width:18vw;
+   	text-align: left; 
+	padding-top:0; 
+	color:#3A3053; 
+	font-size:1vh; 
+	padding-top:1vh;
+}
+
 a {
 	color: inherit;
 	text-decoration: inherit;
