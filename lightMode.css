@@ -84,6 +84,54 @@ input:focus{
 	width:fit-content;
 }
 
+#externalLogin {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 1vh;
+	width:20vw;
+	height: 5vh;
+	display: flex;
+}
+
+#fortyTwoLogin{
+	mask-image:url("svg/42.svg");
+	background:#110026;
+	height:10vh;
+	width:5vw;
+	top:5vh;
+	left:5vw;
+	mask-size:contain;
+	mask-position:center;
+	mask-repeat:no-repeat;
+	flex: 1;
+}
+
+#githubLogin{
+	mask-image:url("svg/github.svg");
+	background:#110026;
+	height:10vh;
+	width:5vw;
+	top:5vh;
+	left:5vw;
+	mask-size:contain;
+	mask-position:center;
+	mask-repeat:no-repeat;
+	flex: 1;
+}
+
+#googleLogin{
+	mask-image:url("svg/google.svg");
+	background:#110026;
+	height:10vh;
+	width:5vw;
+	top:5vh;
+	left:5vw;
+	mask-size:contain;
+	mask-position:center;
+	mask-repeat:no-repeat;
+	flex: 1;
+}
+
 a {
 	color: inherit;
 	text-decoration: inherit;
