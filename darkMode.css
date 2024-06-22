@@ -120,15 +120,14 @@ input:focus{
 }
 
 #googleLogin{
-	mask-image:url("svg/google.svg");
-	background:#FDFDFB;
+	background-image:url("svg/google.svg");
 	height:10vh;
 	width:5vw;
 	top:5vh;
 	left:5vw;
-	mask-size:contain;
-	mask-position:center;
-	mask-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	background-repeat:no-repeat;
 	flex: 1;
 }
 
