@@ -71,6 +71,12 @@ input:focus{
 	color:#3A3053; 
 	font-size:1vh; 
 	padding-top:1vh;
+	display: block flex;
+}
+
+#forgotPassword a{
+	width: inherit;
+	flex: auto;
 }
 
 #loginOpt{
