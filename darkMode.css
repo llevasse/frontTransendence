@@ -40,7 +40,7 @@ input{
 	border: 0.2px solid #FFDBDE;
 	color: #FFDBDE;
 	background-color: #3A3053;
-	border-radius: 25px;
+	border-radius: 1.5vw;
 	font-size: 1vh;
 	padding-top:1.5vh;
 	padding-left: 1vw;
@@ -77,6 +77,19 @@ input:focus{
 #forgotPassword a{
 	width: inherit;
 	flex: auto;
+}
+
+.loginBtn {
+	text-align: center;
+	background-color: #3a3053;
+	color: #FDFDFB;
+	font-weight: thin;	
+	font-family: "pong";
+	font-size: 4vh;
+	padding: 1vh 0;
+	width: 20vw;
+	border: 0.2px solid #FFDBDE;
+	border-radius: 1.5vw;
 }
 
 #loginOpt{
